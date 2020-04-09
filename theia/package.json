@@ -20,7 +20,7 @@
   "scripts": {
     "prepare": "yarn run clean && yarn build && yarn run download:plugins",
     "clean": "theia clean",
-    "build": "theia build --mode development",
+    "build": "theia build",
     "start": "theia start --plugins=local-dir:plugins",
     "download:plugins": "theia download:plugins"
   },
@@ -49,6 +49,8 @@
       "vscode-builtin-xml": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/xml-1.39.1-prel.vsix",
       "vscode-builtin-yaml": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/yaml-1.39.1-prel.vsix",
       "vscode-editorconfig": "https://github.com/theia-ide/editorconfig-vscode/releases/download/v0.14.4/EditorConfig-0.14.4.vsix",
-      "vscode-julia": "https://github.com/julia-vscode/julia-vscode/releases/download/v0.15.18/language-julia-insider-0.15.18.vsix"
+      "vscode-julia": "https://github.com/julia-vscode/julia-vscode/releases/download/v0.15.18/language-julia-insider-0.15.18.vsix",
+      "vscode-dracula": "https://github.com/dracula/visual-studio-code/releases/download/v2.21.0/dracula.vsix",
+      "vscode-builtin-icon-theme-seti": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/vscode-theme-seti-1.39.1-prel.vsix"
       }
 }
