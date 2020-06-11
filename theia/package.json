@@ -1,21 +1,21 @@
 {
   "private": true,
   "dependencies": {
-    "@theia/callhierarchy": "latest",
-    "@theia/file-search": "latest",
-    "@theia/git": "latest",
-    "@theia/json": "latest",
-    "@theia/markers": "latest",
-    "@theia/messages": "latest",
-    "@theia/mini-browser": "latest",
-    "@theia/navigator": "latest",
-    "@theia/outline-view": "latest",
-    "@theia/plugin-ext": "latest",
-    "@theia/plugin-ext-vscode": "latest",
-    "@theia/preferences": "latest",
-    "@theia/preview": "latest",
-    "@theia/search-in-workspace": "latest",
-    "@theia/terminal": "latest"
+    "@theia/callhierarchy": "1.2.0",
+    "@theia/file-search": "1.2.0",
+    "@theia/git": "1.2.0",
+    "@theia/json": "1.2.0",
+    "@theia/markers": "1.2.0",
+    "@theia/messages": "1.2.0",
+    "@theia/mini-browser": "1.2.0",
+    "@theia/navigator": "1.2.0",
+    "@theia/outline-view": "1.2.0",
+    "@theia/plugin-ext": "1.2.0",
+    "@theia/plugin-ext-vscode": "1.2.0",
+    "@theia/preferences": "1.2.0",
+    "@theia/preview": "1.2.0",
+    "@theia/search-in-workspace": "1.2.0",
+    "@theia/terminal": "1.2.0"
   },
   "scripts": {
     "prepare": "yarn run clean && yarn build && yarn run download:plugins",
@@ -25,7 +25,7 @@
     "download:plugins": "theia download:plugins"
   },
   "devDependencies": {
-    "@theia/cli": "latest"
+    "@theia/cli": "1.2.0"
   },
   "theiaPluginsDir": "plugins",
   "theiaPlugins": {
@@ -45,12 +45,8 @@
       "vscode-builtin-typescript": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/typescript-1.39.1-prel.vsix",
       "vscode-builtin-typescript-language-features": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/typescript-language-features-1.39.1-prel.vsix",
       "vscode-builtin-vb": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/vb-1.39.1-prel.vsix",
-      "vscode-builtin-icon-theme-seti": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/vscode-theme-seti-1.39.1-prel.vsix",
       "vscode-builtin-xml": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/xml-1.39.1-prel.vsix",
       "vscode-builtin-yaml": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/yaml-1.39.1-prel.vsix",
-      "vscode-editorconfig": "https://github.com/theia-ide/editorconfig-vscode/releases/download/v0.14.4/EditorConfig-0.14.4.vsix",
-      "vscode-julia": "https://github.com/julia-vscode/julia-vscode/releases/download/v0.15.18/language-julia-insider-0.15.18.vsix",
-      "vscode-dracula": "https://github.com/dracula/visual-studio-code/releases/download/v2.21.0/dracula.vsix",
       "vscode-builtin-icon-theme-seti": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/vscode-theme-seti-1.39.1-prel.vsix"
       }
 }
