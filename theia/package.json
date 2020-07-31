@@ -22,11 +22,7 @@
     "@theia/vsx-registry": "1.4.0"
   },
   "scripts": {
-    "prepare": "yarn run clean && yarn build && yarn run download:plugins",
-    "clean": "theia clean",
-    "build": "theia build",
-    "start": "theia start --plugins=local-dir:plugins",
-    "download:plugins": "theia download:plugins"
+    "start": "theia start --plugins=local-dir:plugins"
   },
   "devDependencies": {
     "@theia/cli": "1.4.0"
