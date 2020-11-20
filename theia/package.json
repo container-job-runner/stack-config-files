@@ -52,25 +52,24 @@
         "@theia/cli": "latest"
     },
     "theiaPluginsDir": "plugins",
-      "theiaPlugins": {
-      "vscode-builtin-cpp": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/cpp-1.39.1-prel.vsix",
-      "vscode-builtin-css": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/css-1.39.1-prel.vsix",
-      "vscode-builtin-debug-auto-launch": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/debug-auto-launch-1.39.1-prel.vsix",
-      "vscode-builtin-docker": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/docker-1.39.1-prel.vsix",
-      "vscode-builtin-html": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/html-1.39.1-prel.vsix",
-      "vscode-builtin-javascript": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/javascript-1.39.1-prel.vsix",
-      "vscode-builtin-json": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/json-1.39.1-prel.vsix",
-      "vscode-builtin-make": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/make-1.39.1-prel.vsix",
-      "vscode-builtin-markdown": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/markdown-1.39.1-prel.vsix",
-      "vscode-builtin-python": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/python-1.39.1-prel.vsix",
-      "vscode-builtin-r": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/r-1.39.1-prel.vsix",
-      "vscode-builtin-scss": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/scss-1.39.1-prel.vsix",
-      "vscode-builtin-shellscript": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/shellscript-1.39.1-prel.vsix",
-      "vscode-builtin-typescript": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/typescript-1.39.1-prel.vsix",
-      "vscode-builtin-typescript-language-features": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/typescript-language-features-1.39.1-prel.vsix",
-      "vscode-builtin-vb": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/vb-1.39.1-prel.vsix",
-      "vscode-builtin-xml": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/xml-1.39.1-prel.vsix",
-      "vscode-builtin-yaml": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/yaml-1.39.1-prel.vsix",
-      "vscode-builtin-icon-theme-seti": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/vscode-theme-seti-1.39.1-prel.vsix"
-      }
+    "theiaPlugins": {
+        "vscode-builtin-cpp": "https://open-vsx.org/api/vscode/cpp/1.51.1/file/vscode.cpp-1.51.1.vsix",
+        "vscode-builtin-css": "https://open-vsx.org/api/vscode/css/1.51.1/file/vscode.css-1.51.1.vsix",
+        "vscode-builtin-debug-auto-launch": "https://open-vsx.org/api/vscode/debug-auto-launch/1.51.1/file/vscode.debug-auto-launch-1.51.1.vsix",
+        "vscode-builtin-docker": "https://open-vsx.org/api/vscode/docker/1.51.1/file/vscode.docker-1.51.1.vsix",
+        "vscode-builtin-html": "https://open-vsx.org/api/vscode/html/1.51.1/file/vscode.html-1.51.1.vsix",
+        "vscode-builtin-javascript": "https://open-vsx.org/api/vscode/javascript/1.51.1/file/vscode.javascript-1.51.1.vsix",
+        "vscode-builtin-json": "https://open-vsx.org/api/vscode/json/1.51.1/file/vscode.json-1.51.1.vsix",
+        "vscode-builtin-make": "https://open-vsx.org/api/vscode/make/1.51.1/file/vscode.make-1.51.1.vsix",
+        "vscode-builtin-markdown": "https://open-vsx.org/api/vscode/markdown/1.51.1/file/vscode.markdown-1.51.1.vsix",
+        "vscode-builtin-python": "https://open-vsx.org/api/vscode/python/1.51.1/file/vscode.python-1.51.1.vsix",
+        "vscode-builtin-r": "https://open-vsx.org/api/vscode/r/1.51.1/file/vscode.r-1.51.1.vsix",
+        "vscode-builtin-scss": "https://open-vsx.org/api/vscode/scss/1.51.1/file/vscode.scss-1.51.1.vsix",
+        "vscode-builtin-shellscript": "https://open-vsx.org/api/vscode/shellscript/1.51.1/file/vscode.shellscript-1.51.1.vsix",
+        "vscode-builtin-typescript": "https://open-vsx.org/api/vscode/typescript/1.51.1/file/vscode.typescript-1.51.1.vsix",
+        "vscode-builtin-typescript-language-features": "https://open-vsx.org/api/vscode/typescript-language-features/1.51.1/file/vscode.typescript-language-features-1.51.1.vsix",
+        "vscode-builtin-xml": "https://open-vsx.org/api/vscode/xml/1.51.1/file/vscode.xml-1.51.1.vsix",
+        "vscode-builtin-yaml": "https://open-vsx.org/api/vscode/yaml/1.51.1/file/vscode.yaml-1.51.1.vsix",
+        "vscode-builtin-icon-theme-seti": "https://open-vsx.org/api/vscode/vscode-theme-seti/1.51.1/file/vscode.vscode-theme-seti-1.51.1.vsix"
+    }
 }
